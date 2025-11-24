@@ -117,6 +117,7 @@ def export_requirements(
             "requests",
             "beautifulsoup4",
             "scipy",
+            "tabulate",
         ]
 
     lines: List[str] = []
