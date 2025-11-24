@@ -108,7 +108,16 @@ def export_requirements(
         return
 
     if packages is None:
-        packages = ["yfinance", "pandas", "numpy", "matplotlib", "seaborn", "requests", "beautifulsoup4"]
+        packages = [
+            "yfinance",
+            "pandas",
+            "numpy",
+            "matplotlib",
+            "seaborn",
+            "requests",
+            "beautifulsoup4",
+            "scipy",
+        ]
 
     lines: List[str] = []
     for pkg in packages:
