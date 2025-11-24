@@ -1,0 +1,10 @@
+yfinance==0.2.66
+matplotlib==3.9.4
+seaborn==0.13.2
+pandas==2.3.3
+numpy==2.0.2
+
+# Notes:
+# These versions were captured from the workspace virtual environment on 2025-11-24.
+# To install exactly these versions:
+#   python -m pip install -r requirements.txt
